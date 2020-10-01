@@ -27,7 +27,12 @@ while 10:
 
     incoming_message = client.recv(1024).decode()
     print(encoded_name,"said -->",incoming_message)
+    
+    
+print("______________Process Ended __________________")    
 
+print("Reload Server To Chat")
+print("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%")
 
 
 

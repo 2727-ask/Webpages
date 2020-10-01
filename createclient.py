@@ -24,6 +24,14 @@ while True:
 
     incoming_message = server.recv(1024).decode()
     print("Server>>",incoming_message)
+    
+print("+++++++++++++++++++++++++++++++++++++++++++++++")
+print("Chat Ended")
+print("+++++++++++++++++++++++++++++++++++++++++++++++")
+print("Reload Server To Chat again ,Thank You")
+    
+    
+    
 
 
 
